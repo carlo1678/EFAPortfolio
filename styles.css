@@ -1,0 +1,100 @@
+body {
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+}
+
+.picContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#aboutMe {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.carouselPic {
+  height: 600px;
+  width: 100%;
+}
+
+.carouselDiv {
+  margin: auto;
+  width: 50%;
+  height: 100px;
+}
+
+.carousel-item h5,
+p {
+  color: rgb(148, 52, 238);
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  margin-top: 500px;
+}
+
+.projects h1 {
+  color: red;
+}
+
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.card-body2 {
+  height: initial;
+  background: linear-gradient(black, grey);
+}
+
+.card-body h5 {
+  color: red;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+#contactP {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 20px;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.formInput {
+  margin-left: 165px;
+}
+
+.formField {
+  display: flex;
+  justify-content: center;
+}
+
+.formField2 {
+  display: flex;
+  justify-content: center;
+  margin-right: 28px;
+}
+
+.text-muted {
+  display: flex;
+  justify-content: center;
+}
